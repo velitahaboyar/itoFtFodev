@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Face</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+      integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+  </head>
+  <style>
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    input[type="number"] {
+      -moz-appearance: textfield;
+    }
+  </style>
+  <body class="bg-white text-dark px-2 py-2">
+    <div
+      class="container bg-light border border-2 rounded-3 w-50 shadow-sm my-5"
+      id="birinci"
+    >
+      <form>
+        <div class="my-3">
+          <label class="form-label">Email</label>
+          <input
+            class="form-control bg-light-subtle shadow-sm"
+            type="email"
+            placeholder="Email"
+          />
+        </div>
+        <div class="my-3">
+          <label class="form-label">Password</label>
+          <input
+            class="form-control bg-light-subtle shadow-sm"
+            type="password"
+            placeholder="Password"
+          />
+        </div>
+        <div class="d-flex gap-2">
+          <input class="form-check-input mb-3 shadow-sm" type="checkbox" /><span
+            >Remember Me</span
+          >
+        </div>
+        <div class="d-flex align-items-center">
+          <button class="btn btn-primary mb-3 w-25 shadow-sm">Sign in</button>
+        </div>
+      </form>
+    </div>
+
+    <div
+      class="container bg-light border border-2 rounded-3 shadow-sm my-5 w-100"
+      id="ikinci"
+    >
+      <form>
+        <div class="my-3 d-flex justify-content-evenly align-items-center">
+          <input
+            class="form-control bg-light-subtle w-25 shadow-sm"
+            type="email"
+            placeholder="Email"
+          />
+          <input
+            class="form-control bg-light-subtle w-25 shadow-sm"
+            type="password"
+            placeholder="Password"
+          />
+          <div class="d-flex gap-2">
+            <input class="form-check-input shadow-sm" type="checkbox" />Beni
+            Hatırla
+          </div>
+          <button class="btn btn-primary w-25 shadowsm">Kaydet</button>
+        </div>
+      </form>
+    </div>
+
+    <div
+      class="container bg-light border border-2 rounded-3 shadow border-2 border-dark p-4"
+      id="ucuncu"
+    >
+      <form>
+        <div class="text-start mx-3 my-3">
+          <h3>Form 3 Ödev</h3>
+          <hr />
+        </div>
+        <div class="p-4">
+          <div class="text-start mx-3">
+            <h5>Kişisel Bilgiler</h5>
+          </div>
+          <div class="d-flex justify-content-around my-3">
+            <input
+              class="form-control w-25 shadow-sm"
+              type="number"
+              maxlength="11"
+              placeholder="TC No"
+              required
+            />
+            <input
+              class="form-control w-50 shadow-sm"
+              type="text"
+              minlength="3"
+              placeholder="Ad Soyad"
+              required
+            />
+          </div>
+
+          <div class="d-flex justify-content-around my-3 mb-5">
+            <input
+              class="form-control w-25 shadow-sm"
+              type="number"
+              placeholder="GSM"
+              maxlength="11"
+              required
+            />
+            <select class="form-select w-50 shadow-sm" name="" id="" required>
+              <option selected>Select</option>
+              <option>Value 1</option>
+              <option>Value 2</option>
+              <option>Value 3</option>
+            </select>
+          </div>
+          <hr class="mx-3" />
+
+          <div class="text-start mx-3">
+            <h5>Hobiler</h5>
+          </div>
+          <div class="d-flex justify-content-between mx-3 my-3">
+            <div class="d-flex form-check gap-2">
+              <input type="checkbox" class="form-check-input shadow-sm" />
+              <label class="form-check-label" for="exampleCheck1"
+                ><span>Yüzme</span></label
+              >
+            </div>
+            <div class="d-flex form-check gap-2">
+              <input type="checkbox" class="form-check-input shadow-sm" />
+              <label class="form-check-label" for="exampleCheck1"
+                ><span>Dağcılık</span></label
+              >
+            </div>
+            <div class="d-flex form-check gap-2">
+              <input type="checkbox" class="form-check-input shadow-sm" />
+              <label class="form-check-label" for="exampleCheck1"
+                ><span>Kamp</span></label
+              >
+            </div>
+            <div class="d-flex form-check gap-2">
+              <input type="checkbox" class="form-check-input shadow-sm" />
+              <label class="form-check-label" for="exampleCheck1"
+                ><span>Diğer (Lütfen Belirtin)</span></label
+              >
+            </div>
+          </div>
+          <div class="container my-3 mb-5">
+            <textarea
+              style="resize: none"
+              class="form-control shadow-sm"
+              placeholder="Hobiler"
+            ></textarea>
+          </div>
+          <hr class="mx-3" />
+          <div
+            class="d-flex align-items-center justify-content-between mx-3 mb-5"
+          >
+            <div class="text-start">
+              <h5>Askerlik Durumu</h5>
+            </div>
+
+            <div class="form-check form-switch">
+              <input
+                type="radio"
+                name="radios"
+                class="form-check-input shadow-sm"
+                id="radio1"
+              />
+              <label class="form-check-label mx-1" for="radio1">Yaptım</label>
+            </div>
+            <div class="form-check form-switch">
+              <input
+                type="radio"
+                name="radios"
+                class="form-check-input shadow-sm"
+                id="radio2"
+              />
+              <label class="form-check-label mx-1" for="radio2">Yapmadım</label>
+            </div>
+            <div class="form-check form-switch">
+              <input
+                type="radio"
+                name="radios"
+                class="form-check-input shadow-sm"
+                id="radio3"
+              />
+              <label class="form-check-label mx-1" for="radio3">Muaf</label>
+            </div>
+          </div>
+          <hr class="mx-3 5" />
+          <div class="d-flex mx-3 justify-content-between mb-5">
+            <div>
+              <h5>Adres</h5>
+            </div>
+            <textarea
+              style="resize: none"
+              class="form-control shadow-sm w-75"
+              placeholder="Adres"
+              required
+            ></textarea>
+          </div>
+          <hr class="mx-3" />
+          <div class="mx-3 mb-3">
+            <h5>Resim Yükle</h5>
+          </div>
+          <div
+            class="input-group d-flex justify-content-center align-items-center mb-4"
+          >
+            <div class="d-flex mx-3">
+              <input
+                class="form-control shadow-sm"
+                type="file"
+                accept=".jpg, .png, .jpeg"
+                id="formFile"
+              />
+            </div>
+          </div>
+          <hr class="mx-3" />
+        </div>
+        <div class="d-flex align-items-center justify-content-center">
+          <button class="btn btn-primary w-100 shadow mx-3 mb-2">Gönder</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
