@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+      integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    .link-text {
+      color: #fff;
+      opacity: 0.5;
+      transition: 0.2s;
+    }
+    .link-text:hover {
+      color: #fff;
+      opacity: 1;
+    }
+    .link-text:active {
+      color: #fff;
+      opacity: 1;
+    }
+    #list-style-none {
+      list-style: none;
+    }
+  </style>
+  <body id="page-head">
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+      integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <div class="sidebar">
+      <div
+        class="d-flex flex-column p-3 vh-100 justify-content-center fixed-top shadow-lg"
+        style="width: 280px; background-color: rgb(252, 96, 39)"
+      >
+        <ul
+          class="nav flex-column d-flex justify-content-end align-items-center"
+        >
+          <img
+            class="rounded-circle w-50 mx-auto mb-2"
+            src="https://startbootstrap.github.io/startbootstrap-resume/assets/img/profile.jpg"
+            alt=""
+          />
+          <li class="nav-item">
+            <a
+              class="nav-link active fw-bold active text-light link-active"
+              href="#page-head"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold link-text" href="#experience"
+              >Experience</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold link-text" href="#education"
+              >Education</a
+            >
+          </li>
+          <li>
+            <a class="nav-link fw-bold link-text" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold link-text" href="#interests"
+              >Interests</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold link-text" href="#awards">Awards</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div
+      class="container d-flex justify-content-center align-items-center vh-100"
+    >
+      <div class="align-self-center mx-5">
+        <div class="card border-0">
+          <div class="card-body text-dark">
+            <h1>CLARENCE <span style="color: orangered">TAYLOR</span></h1>
+            <div class="h4">
+              <p class="text-dark">
+                542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
+                name@email.com
+              </p>
+            </div>
+            <div class="h4 fw-normal">
+              <p>
+                I am experienced in leveraging agile frameworks to provide a
+                robust synopsis for high level overviews. Iterative approaches
+                to corporate strategy foster collaborative thinking to further
+                the overall value proposition.
+              </p>
+            </div>
+            <div class="d-flex">
+              <div class="">
+                <a href="#">
+                  <i
+                    class="bi bi-linkedin text-dark"
+                    style="font-size: 50px"
+                  ></i>
+                </a>
+              </div>
+              <div class="px-5">
+                <a href="#">
+                  <i class="bi bi-github text-dark" style="font-size: 50px"></i>
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <i
+                    class="bi bi-twitter text-dark"
+                    style="font-size: 50px"
+                  ></i>
+                </a>
+              </div>
+              <div class="px-5">
+                <a href="#">
+                  <i
+                    class="bi bi-facebook text-dark"
+                    style="font-size: 50px"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div
+      class="container d-flex justify-content-center align-items-start vh-100 my-5"
+      id="experience"
+    >
+      <div class="container mx-5">
+        <div class="card border-0">
+          <div class="card-body d-flex flex-column gap-4">
+            <h1 class="card-title fw-bold my-4">EXPERIENCE</h1>
+            <div id="experience-card">
+              <div class="d-flex justify-content-between">
+                <h3>Senior Web Developer</h3>
+                <p style="color: orangered">March 2013 - Present</p>
+              </div>
+              <p class="fw-bold" style="color: #888">Intelitec Solutions</p>
+              <div class="w-75">
+                <p class="text-secondary">
+                  Bring to the table win-win survival strategies to ensure
+                  proactive domination. At the end of the day, going forward, a
+                  new normal that has evolved from generation X is on the runway
+                  heading towards a streamlined cloud solution. User generated
+                  content in real-time will have multiple touchpoints for
+                  offshoring.
+                </p>
+              </div>
+            </div>
+            <div id="experience-card">
+              <div class="d-flex justify-content-between">
+                <h3>Web Developer</h3>
+                <p style="color: orangered">December 2011 - March 2013</p>
+              </div>
+              <p class="fw-bold" style="color: #888">Intelitec Solutions</p>
+              <div class="w-75">
+                <p class="text-secondary">
+                  Capitalize on low hanging fruit to identify a ballpark value
+                  added activity to beta test. Override the digital divide with
+                  additional clickthroughs from DevOps. Nanotechnology immersion
+                  along the information highway will close the loop on focusing
+                  solely on the bottom line.
+                </p>
+              </div>
+            </div>
+            <div id="experience-card">
+              <div class="d-flex justify-content-between">
+                <h3>Junior Web Designer</h3>
+                <p style="color: orangered">uly 2010 - December 2011</p>
+              </div>
+              <p class="fw-bold" style="color: #888">
+                Shout! Media Productions
+              </p>
+              <div class="w-75">
+                <p class="text-secondary">
+                  Podcasting operational change management inside of workflows
+                  to establish a framework. Taking seamless key performance
+                  indicators offline to maximise the long tail. Keeping your eye
+                  on the ball while performing a deep dive on the start-up
+                  mentality to derive convergence on cross-platform integration.
+                </p>
+              </div>
+            </div>
+            <div id="experience-card">
+              <div class="d-flex justify-content-between">
+                <h3>Web Design Intern</h3>
+                <p style="color: orangered">September 2008 - June 2010</p>
+              </div>
+              <p class="fw-bold" style="color: #888">
+                Shout! Media Productions
+              </p>
+              <div class="w-75">
+                <p class="text-secondary">
+                  Collaboratively administrate empowered markets via
+                  plug-and-play networks. Dynamically procrastinate B2C users
+                  after installed base benefits. Dramatically visualize customer
+                  directed convergence without revolutionary ROI.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div
+      class="container d-flex justify-content-center align-items-center vh-100"
+      id="education"
+    >
+      <div class="container mx-5">
+        <div class="card border-0">
+          <div class="card-body d-flex flex-column gap-4">
+            <h1 class="card-title fw-bold my-4">EDUCATION</h1>
+            <div id="education-card">
+              <div class="d-flex justify-content-between">
+                <h3>University of Colorado Boulder</h3>
+                <p style="color: orangered">August 2006 - May 2010</p>
+              </div>
+              <p class="fw-bold" style="color: #888">Bachelor of Science</p>
+              <div class="w-75">
+                <p>Computer Science - Web Development Track GPA: 3.23</p>
+              </div>
+            </div>
+            <div id="education-card">
+              <div class="d-flex justify-content-between">
+                <h3>James Buchanan High School</h3>
+                <p style="color: orangered">August 2002 - May 2006</p>
+              </div>
+              <p class="fw-bold" style="color: #888">
+                Technology Magnet Program
+              </p>
+              <div class="w-75">
+                <p>GPA: 3.56</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div
+      class="container d-flex justify-content-center align-items-center vh-100"
+      id="skills"
+    >
+      <div class="container mx-5">
+        <div class="card border-0">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title fw-bold my-5">SKILLS</h1>
+            <div id="skills-card">
+              <div class="d-flex justify-content-between">
+                <p class="fw-bold" style="color: #888">
+                  Programming Languages & Tools
+                </p>
+              </div>
+              <div class="d-flex text-secondary gap-3">
+                <i class="bi bi-filetype-html" style="font-size: 50px"></i>
+                <i class="bi bi-filetype-js" style="font-size: 50px"></i>
+                <i class="bi bi-wordpress" style="font-size: 50px"></i>
+                <i class="bi bi-filetype-sass" style="font-size: 50px"></i>
+              </div>
+              <div class="card border-0 mt-3">
+                <h5 class="text-secondary my-3">WORKFLOW</h5>
+                <ul>
+                  <li id="list-style-none">
+                    <i class="bi bi-check-lg">
+                      Mobile-First, Responsive Design</i
+                    >
+                  </li>
+                  <li id="list-style-none">
+                    <i class="bi bi-check-lg">
+                      Cross Browser Testing & Debugging</i
+                    >
+                  </li>
+                  <li id="list-style-none">
+                    <i class="bi bi-check-lg"> Cross Functional Teams</i>
+                  </li>
+                  <li id="list-style-none">
+                    <i class="bi bi-check-lg"> Agile Development & Scrum</i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div
+      class="container d-flex justify-content-start align-items-center vh-100"
+      id="interests"
+    >
+      <div class="container mx-5">
+        <h1 class="mb-5 fw-bold my-5">INTERESTS</h1>
+        <p class="text-secondary">
+          Apart from being a web developer, I enjoy most of my time being
+          outdoors. In the winter, I am an avid skier and novice ice climber.
+          During the warmer months here in Colorado, I enjoy mountain biking,
+          free climbing, and kayaking.
+        </p>
+        <p class="text-secondary">
+          When forced indoors, I follow a number of sci-fi and fantasy genre
+          movies and television shows, I am an aspiring chef, and I spend a
+          large amount of my free time exploring the latest technology
+          advancements in the front-end web development world.
+        </p>
+      </div>
+    </div>
+    <hr />
+    <div
+      class="container d-flex justify-content-start align-items-center vh-100"
+      id="awards"
+    >
+      <div class="container mx-5">
+        <h1 class="fw-bold my-5 uppercase">AWARDS & CERTIFICATIONS</h1>
+        <div id="awards-list">
+          <ul>
+            <li id="list-style-none">
+              <i class="bi bi-trophy-fill text-warning"
+                ><span class="text-secondary">
+                  Google Analytics Certified Developer</span
+                ></i
+              >
+            </li>
+            <li id="list-style-none">
+              <i class="bi bi-trophy-fill text-warning"
+                ><span class="text-secondary">
+                  Mobile Web Specialist - Google Certification</span
+                ></i
+              >
+            </li>
+            <li id="list-style-none">
+              <i class="bi bi-trophy-fill text-warning"
+                ><span class="text-secondary">
+                  1 <sup>st</sup> Place - University of Colorado Boulder -
+                  Emerging Tech Competition 2009</span
+                ></i
+              >
+            </li>
+            <li id="list-style-none">
+              <i class="bi bi-trophy-fill text-warning"
+                ><span class="text-secondary">
+                  1 <sup>st</sup> Place - University of Colorado Boulder - Adobe
+                  Creative Jam 2008 (UI Design Category)</span
+                ></i
+              >
+            </li>
+            <li id="list-style-none">
+              <i class="bi bi-trophy-fill text-warning"
+                ><span class="text-secondary">
+                  2 <sup>nd</sup> Place - University of Colorado Boulder -
+                  Emerging Tech Competition 2008</span
+                ></i
+              >
+            </li>
+            <li id="list-style-none">
+              <i class="bi bi-trophy-fill text-warning"
+                ><span class="text-secondary">
+                  1 <sup>st</sup> Place - James Buchanan High School - Hackathon
+                  2006</span
+                ></i
+              >
+            </li>
+            <li id="list-style-none">
+              <i class="bi bi-trophy-fill text-warning"
+                ><span class="text-secondary">
+                  3 <sup>rd</sup> Place - James Buchanan High School - Hackathon
+                  2005</span
+                ></i
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
